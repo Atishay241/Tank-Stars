@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="25" height="13" tilewidth="16" tileheight="16" infinite="0" nextlayerid="4" nextobjectid="6">
+ <tileset firstgid="1" source="tileset.tsx"/>
+ <tileset firstgid="925" source="../../GAME/assets/tileset.tsx"/>
+ <layer id="1" name="background" width="25" height="13">
+  <data encoding="base64" compression="zlib">
+   eJzbycTAsHMUj+JRPIopxKFsA+8GamAAfT7tCA==
+  </data>
+ </layer>
+ <layer id="2" name="graphic" width="25" height="13">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2DoAzlGBCZGnBg9ICDECMGyQGyPhOWhanCJ45OTRRMzHia4dJhgALP5JuQ=
+  </data>
+ </layer>
+ <objectgroup id="3" name="terrain">
+  <object id="1" x="0" y="142.925">
+   <polyline points="0,0 7.54717,-2.35849 14.1509,-0.943396 19.3396,-1.88679 31.1321,-0.471698 51.8868,-19.3396 56.6038,-21.2264 63.6792,-16.9811 71.2264,-21.2264 79.2453,-17.4528 90.0943,-19.8113 97.1698,-15.566 99.5283,-10.3774 108.019,-0.471698 120.755,-4.24528 127.358,-0.471698 150.943,-20.7547 159.434,-16.5094 169.34,-23.1132 175,-16.5094 184.434,-21.2264 192.925,-14.1509 203.302,-1.88679 209.434,-2.35849 215.094,-4.24528 224.528,-0.471698 232.075,-5.66038 238.679,-0.471698 259.434,-20.283 270.755,-17.9245 280.66,-20.7547 288.208,-16.9811 297.17,-21.2264 303.774,-16.5094 306.604,-10.8491 315.566,-1.41509 320.755,-0.943396 329.245,-5.18868 336.792,0.471698 357.547,-21.2264 366.509,-18.8679 367.925,-16.5094 377.83,-21.2264 384.906,-14.6226 386.321,-11.3208 395.283,-2.83019 398.585,-2.35849"/>
+  </object>
+ </objectgroup>
+</map>

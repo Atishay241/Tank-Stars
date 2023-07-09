@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="25" height="13" tilewidth="16" tileheight="16" infinite="0" nextlayerid="4" nextobjectid="6">
+ <tileset firstgid="1" source="tileset.tsx"/>
+ <layer id="1" name="backgound" width="25" height="13">
+  <data encoding="base64" compression="zlib">
+   eJzbycTAsHMUj+JRPIpHMRgDAMhC7Wg=
+  </data>
+ </layer>
+ <layer id="2" name="terrain" width="25" height="13">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2BwATlG0tTCMC45dCALFLMHYnk8emD6YGrtkfTA5GWJECdGrnQUDyoMAK+kNCA=
+  </data>
+ </layer>
+ <objectgroup id="3" name="layer">
+  <object id="2" x="399.057" y="0">
+   <polyline points="0,0 0.471698,142.453"/>
+  </object>
+  <object id="4" x="0.471698" y="0.471698">
+   <polyline points="0,0 0,142.925"/>
+  </object>
+  <object id="5" x="1.41509" y="140.094">
+   <polyline points="0,0 14.6226,-13.2075 24.5283,-19.3396 29.2453,-13.6792 39.1509,-17.9245 44.3396,-14.1509 55.1887,-17.4528 63.2075,-12.7358 77.8302,3.30189 87.2642,-2.35849 93.8679,3.30189 101.887,-1.41509 110.849,2.83019 128.302,-15.0943 134.906,-17.4528 139.151,-16.0377 141.509,-14.6226 150.472,-17.9245 159.906,-11.7925 175,3.77358 182.075,-1.41509 189.623,1.41509 199.528,-2.35849 205.66,2.35849 244.811,-33.9623 250.943,-33.4906 285.849,3.77358 295.755,-1.88679 302.358,3.77358 310.377,-1.41509 314.151,-1.88679 319.811,2.83019 340.094,-17.4528 342.925,-17.9245 350.472,-13.2075 357.075,-18.3962 361.792,-16.9811 366.981,-13.6792 373.113,-16.9811 376.887,-16.5094 379.717,-15.0943 383.491,-12.7358 386.321,-8.96226 391.038,-5.66038 394.34,-0.943396 398.585,2.35849"/>
+  </object>
+ </objectgroup>
+</map>
